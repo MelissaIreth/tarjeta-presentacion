@@ -3,21 +3,24 @@ body{
     background-size: 1000px;
     background-repeat: no-repeat;
     font-family: 'Khula', sans-serif;
-    display: block;
-    margin: 8px;
 }
 
 .logo{
 	background-image: url(../img/Laboratoria_Logo.png);
-	width: 100px;
+	width: 200px;
+	height: 30px;
+	left: 240px;
+	top: 30px;
+	position: absolute;
 }
+
 .cabeza{
 	width: 140px;
 	height: 140px;
 	background: #651665;
 	position: absolute;
-	top: 143px;
-	left: 437px;
+	top: 113px;
+	left: 197px;
 	-moz-border-radius: 65px;
 	-webkit-border-radius: 65px;
 	border-radius: 65px;
@@ -25,8 +28,8 @@ body{
 
 .gris{
 	border-bottom: 563px solid #3c3c3b;
-	border-left: 320px solid transparent;
-	margin-left: 282px;
+	border-left: 340px solid transparent;
+	margin-left: 290px;
 	height: 0;
 	width: 389px;
 	position: relative;
@@ -34,8 +37,12 @@ body{
 	display: inline-block;
 }
 .logo-chico{
-	background-image: url(../img/Laboratoria_Isotipo CodeAcademy.png);
-	position: relative;
+	background-image: url(../img/Laboratoria_Isotipo-CodeAcademy.png);
+	width: 100px;
+	height: 100px;
+	right: 0;
+	bottom: -563px;
+	position: absolute;
 }
 
 .name, .lastname, .datos{
@@ -43,14 +50,13 @@ body{
 }
 .front-end{
 	color: #e8a328;
-	font-size: 30px;
-	padding: 10px;
+	font-size: 35px;
 }
 
 .name{
 	font-size: 50px;
 	text-align: center;
-	margin: -5px;
+	margin: 10px;
 	padding: 40px;
 }
 .lastname{
@@ -62,7 +68,7 @@ body{
 }
 
 .datos{
-	font-size: 15px;
+	font-size: 20px;
 	margin: -5px;
 	margin-left: -70px;
 }
