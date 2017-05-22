@@ -1,0 +1,68 @@
+body{
+	background-image: url(../img/coding.png);
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    font-family: 'Khula', sans-serif;
+    display: block;
+    margin: 8px;
+}
+
+.logo{
+	background-image: url(../img/Laboratoria_Logo.png);
+	width: 100px;
+}
+.cabeza{
+	width: 140px;
+	height: 140px;
+	background: #651665;
+	position: absolute;
+	top: 143px;
+	left: 437px;
+	-moz-border-radius: 65px;
+	-webkit-border-radius: 65px;
+	border-radius: 65px;
+}
+
+.gris{
+	border-bottom: 563px solid #3c3c3b;
+	border-left: 320px solid transparent;
+	margin-left: 282px;
+	height: 0;
+	width: 389px;
+	position: relative;
+	box-sizing: content-box;
+	display: inline-block;
+}
+.logo-chico{
+	background-image: url(../img/Laboratoria_Isotipo CodeAcademy.png);
+	position: relative;
+}
+
+.name, .lastname, .datos{
+	color: whitesmoke;
+}
+.front-end{
+	color: #e8a328;
+	font-size: 30px;
+	padding: 10px;
+}
+
+.name{
+	font-size: 50px;
+	text-align: center;
+	margin: -5px;
+	padding: 40px;
+}
+.lastname{
+	font-size: 50px;
+	margin-left: -30px;
+	margin-top: -80px;
+	padding: 0;
+
+}
+
+.datos{
+	font-size: 15px;
+	margin: -5px;
+	margin-left: -70px;
+}
